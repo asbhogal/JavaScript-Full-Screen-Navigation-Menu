@@ -76,15 +76,15 @@ body {
   opacity: 1;
   visibility: visible;
 }
-.menu.menu__list {
+.menu .menu__list {
   display: flex;
   flex-direction: column;
   list-style-type: none;
 }
-.menu.menu__list .menu__item:not(:last-child) {
+.menu .menu__list .menu__item:not(:last-child) {
   margin-bottom: 30px;
 }
-.menu.menu__list .menu__item > .menu__link {
+.menu .menu__list .menu__item > .menu__link {
   position: relative;
   display: inline-flex;
   font-weight: bold;
@@ -93,7 +93,7 @@ body {
   text-transform: uppercase;
   text-decoration: none;
 }
-.menu.menu__list .menu__item > .menu__link:after {
+.menu .menu__list .menu__item > .menu__link:after {
   content: "";
   position: absolute;
   bottom: -10px;
@@ -104,6 +104,6 @@ body {
   background: rgb(63, 32, 136);
   transition: 0.3s;
 }
-.menu.menu__list .menu__item > .menu__link:hover:after {
+.menu .menu__list .menu__item > .menu__link:hover:after {
   width: 100%;
 }/*# sourceMappingURL=style.css.map */
