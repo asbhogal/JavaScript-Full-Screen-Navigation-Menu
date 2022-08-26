@@ -16,10 +16,13 @@
         position: absolute;
         transition: .3s;
         &:nth-child(1) {
-            top: 20%;
+            top: 30%;
         }
         &:nth-child(2) {
-            top: 80%;
+            top: 60%;
+        }
+        &:nth-child(3) {
+            top: 90%;
         }
     }
     .is-active span {
@@ -30,7 +33,11 @@
         }
         &:nth-child(2) {
             top: 50%;
-            transform: rotate(45deg);
+            opacity: 0;
+        }
+        &:nth-child(3) {
+            top: 50%;
+            transform: rotate(45deg)
         }
     }
 }

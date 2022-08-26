@@ -33,10 +33,13 @@ body {
   transition: 0.3s;
 }
 .btn span:nth-child(1) {
-  top: 20%;
+  top: 30%;
 }
 .btn span:nth-child(2) {
-  top: 80%;
+  top: 60%;
+}
+.btn span:nth-child(3) {
+  top: 90%;
 }
 .btn .is-active span {
   background-color: #000;
@@ -46,6 +49,10 @@ body {
   transform: rotate(-45deg);
 }
 .btn .is-active span:nth-child(2) {
+  top: 50%;
+  opacity: 0;
+}
+.btn .is-active span:nth-child(3) {
   top: 50%;
   transform: rotate(45deg);
 }
