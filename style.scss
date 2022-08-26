@@ -25,8 +25,8 @@
             top: 90%;
         }
     }
-    .is-active span {
-        background-color: #000;
+    &.is-active span {
+        background-color: #f5f5f5;
         &:nth-child(1) {
             top: 50%;
             transform: rotate(-45deg);
@@ -37,7 +37,7 @@
         }
         &:nth-child(3) {
             top: 50%;
-            transform: rotate(45deg)
+            transform: rotate(45deg);
         }
     }
 }
@@ -56,18 +56,18 @@
     transition: .3s;
     opacity: 0;
     visibility: hidden;
-    .is-active {
+    &.is-active {
         opacity: 1;
         visibility: visible;
     }
-    .menu__list {
+    &.menu__list {
         display: flex;
         flex-direction: column;
         list-style-type: none;
         .menu__item:not(:last-child) {
             margin-bottom: 30px;
         }
-        .menu__link {
+        .menu__item > .menu__link {
             position: relative;
             display: inline-flex;
             font-weight: bold;
