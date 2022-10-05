@@ -1,4 +1,10 @@
+<div align="center">
+
 <h1>Full Screen Navigation Menu</h1>
+
+![](https://api.checklyhq.com/v1/badges/checks/d03947b3-4dfa-47d8-91ca-2a144a0a53c4?style=for-the-badge&theme=dark&responseTime=true) ![](https://api.checklyhq.com/v1/badges/checks/d03947b3-4dfa-47d8-91ca-2a144a0a53c4?style=for-the-badge&theme=dark)<br><br>![GitHub deployments](https://img.shields.io/github/deployments/asbhogal/JavaScript-Full-Screen-Navigation-Menu/production?label=DEPLOYMENT%20STATE&style=for-the-badge&labelColor=000) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/asbhogal/JavaScript-Full-Screen-Navigation-Menu?style=for-the-badge&labelColor=000) ![GitHub repo size](https://img.shields.io/github/repo-size/asbhogal/JavaScript-Full-Screen-Navigation-Menu?color=blueviolet&style=for-the-badge&labelColor=000)
+
+</div>
 
 A full screen navigation menu built using vanilla HTML5, CSS3 (SCSS) and JavaScript. The menu is fully responsive, with a stylish, modern interface and optimised for the web.
 
