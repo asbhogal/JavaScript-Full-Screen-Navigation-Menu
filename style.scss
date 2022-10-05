@@ -1,4 +1,8 @@
-@import 'partials/globals', 'partials/responsive', 'partials/typography';
+@import 'partials/globals', 
+        'partials/mixins',
+        'partials/responsive', 
+        'partials/typography',
+        'partials/variables';
 
 .btn {
     position: absolute;
