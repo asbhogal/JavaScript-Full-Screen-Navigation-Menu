@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f5f5f5;
+  min-height: 100vh;
+  position: relative;
+}
+
+@media (max-width: 440px) {
+  body {
+    text-align: center;
+  }
+  body .menu.is-active {
+    justify-content: center;
+  }
+}
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.btn {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  z-index: 2;
+  display: flex;
+  width: 20px;
+  height: 20px;
+}
+.btn span {
+  width: 20px;
+  height: 2px;
+  background-color: #000000;
+  display: flex;
+  position: absolute;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.btn span:nth-child(1) {
+  top: 30%;
+}
+.btn span:nth-child(2) {
+  top: 60%;
+}
+.btn span:nth-child(3) {
+  top: 90%;
+}
+.btn.is-active span {
+  background-color: #f5f5f5;
+}
+.btn.is-active span:nth-child(1) {
+  top: 50%;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+}
+.btn.is-active span:nth-child(2) {
+  top: 50%;
+  opacity: 0;
+}
+.btn.is-active span:nth-child(3) {
+  top: 50%;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+}
+
+.menu {
+  background-color: #171717;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 100px;
+  z-index: 1;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  opacity: 0;
+  visibility: hidden;
+}
+.menu.is-active {
+  opacity: 1;
+  visibility: visible;
+}
+.menu .menu__list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+.menu .menu__list .menu__item:not(:last-child) {
+  margin-bottom: 30px;
+}
+.menu .menu__list .menu__item > .menu__link {
+  position: relative;
+  display: inline-flex;
+  font-weight: bold;
+  font-size: 48px;
+  color: #f5f5f5;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.menu .menu__list .menu__item > .menu__link:after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 0;
+  height: 5px;
+  display: inline-flex;
+  background: rgb(63, 32, 136);
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.menu .menu__list .menu__item > .menu__link:hover:after {
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
