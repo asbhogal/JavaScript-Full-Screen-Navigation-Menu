@@ -1,1 +1,7 @@
-.vscode
+## NPM PACKAGES ##
+
+node_modules
+
+## PARCEL TEMP FILES
+
+.cache

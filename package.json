@@ -1,0 +1,29 @@
+{
+  "name": "javascript-full-screen-navigation-menu",
+  "version": "1.0.0",
+  "description": "A full screen navigation menu triggered by a hamburger icon toggle coded using vanilla HTML5, CSS3 (SCSS) and JavaScript. The menu is fully responsive and optimized for the web.",
+  "main": "script.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asbhogal/JavaScript-Full-Screen-Navigation-Menu.git"
+  },
+  "keywords": [],
+  "author": "Aman Singh Bhogal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asbhogal/JavaScript-Full-Screen-Navigation-Menu/issues"
+  },
+  "homepage": "https://github.com/asbhogal/JavaScript-Full-Screen-Navigation-Menu",
+  "devDependencies": {
+    "parcel-bundler": "^1.3.1",
+    "sass": "^1.55.0",
+    "terser": "^5.15.1"
+  },
+  "resolutions": {
+    "node-forge": "0.10.0"
+  }
+}
