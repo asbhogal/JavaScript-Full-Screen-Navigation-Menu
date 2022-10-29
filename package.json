@@ -1,7 +1,7 @@
 {
-  "name": "javascript---full-screen-navigation-menu",
+  "name": "javascript-full-screen-navigation-menu",
   "version": "1.0.0",
-  "description": "",
+  "description": "A full screen navigation menu triggered by a hamburger icon toggle coded using vanilla HTML5, CSS3 (SCSS) and JavaScript. The menu is fully responsive and optimised for the web.",
   "main": "script.js",
   "scripts": {
     "dev": "parcel src/index.html",
