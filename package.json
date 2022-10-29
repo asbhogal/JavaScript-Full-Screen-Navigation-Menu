@@ -18,6 +18,11 @@
   },
   "homepage": "https://github.com/asbhogal/JavaScript-Full-Screen-Navigation-Menu",
   "devDependencies": {
-    "sass": "^1.55.0"
+    "parcel-bundler": "^1.3.1",
+    "sass": "^1.55.0",
+    "terser": "^5.15.1"
+  },
+  "resolutions": {
+    "node-forge": "0.10.0"
   }
 }
