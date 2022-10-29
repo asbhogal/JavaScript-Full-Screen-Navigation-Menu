@@ -1,0 +1,23 @@
+{
+  "name": "javascript---full-screen-navigation-menu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "watch-sass": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asbhogal/JavaScript-Full-Screen-Navigation-Menu.git"
+  },
+  "keywords": [],
+  "author": "Aman Singh Bhogal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asbhogal/JavaScript-Full-Screen-Navigation-Menu/issues"
+  },
+  "homepage": "https://github.com/asbhogal/JavaScript-Full-Screen-Navigation-Menu",
+  "devDependencies": {
+    "sass": "^1.55.0"
+  }
+}
